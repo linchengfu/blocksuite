@@ -184,6 +184,16 @@ export const defaultSlashMenuConfig: SlashMenuConfig = {
           std.host.store.deleteBlock(model);
         },
       },
+      {
+        name: 'Columns',
+        description: 'Create a columns block.',
+        icon: DeleteIcon(),
+        tooltip: slashMenuToolTips['Columns'],
+        group: '8_Actions@5',
+        action: ({ std, model }) => {
+          std.host.store.addBlock('affine:columns', {}, std.host.store.getParent(model), 0);
+        },
+      },
     ];
   },
 };

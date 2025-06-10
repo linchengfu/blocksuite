@@ -753,6 +753,29 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@blocksuite/affine-block-columns@workspace:packages/affine/blocks/columns":
+  version: 0.0.0-use.local
+  resolution: "@blocksuite/affine-block-columns@workspace:packages/affine/blocks/columns"
+  dependencies:
+    "@blocksuite/affine-components": "workspace:*"
+    "@blocksuite/affine-ext-loader": "workspace:*"
+    "@blocksuite/affine-model": "workspace:*"
+    "@blocksuite/affine-shared": "workspace:*"
+    "@blocksuite/global": "workspace:*"
+    "@blocksuite/std": "workspace:*"
+    "@blocksuite/store": "workspace:*"
+    "@floating-ui/dom": "npm:^1.6.13"
+    "@lit/context": "npm:^1.1.2"
+    "@preact/signals-core": "npm:^1.8.0"
+    "@toeverything/theme": "npm:^1.1.14"
+    "@types/mdast": "npm:^4.0.4"
+    lit: "npm:^3.2.0"
+    minimatch: "npm:^10.0.1"
+    rxjs: "npm:^7.8.1"
+    zod: "npm:^3.23.8"
+  languageName: unknown
+  linkType: soft
+
 "@blocksuite/affine-block-data-view@workspace:*, @blocksuite/affine-block-data-view@workspace:packages/affine/blocks/data-view":
   version: 0.0.0-use.local
   resolution: "@blocksuite/affine-block-data-view@workspace:packages/affine/blocks/data-view"

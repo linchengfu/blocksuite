@@ -30,6 +30,14 @@ export interface TextConversionConfig {
 
 export const textConversionConfigs: TextConversionConfig[] = [
   {
+    flavour: 'affine:columns',
+    type: 'columns',
+    name: 'Columns',
+    description: 'Create a columns block.',
+    hotkey: null,
+    icon: TextIcon,
+  },
+  {
     flavour: 'affine:paragraph',
     type: 'text',
     name: 'Text',
